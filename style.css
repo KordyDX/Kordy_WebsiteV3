@@ -5,10 +5,6 @@ body {
 }
 
 body {
-    background-image: url(pack.svg);
+    color: white;
     background-color: #2b2b2b;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-attachment: fixed;
 }
