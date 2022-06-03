@@ -1,10 +1,51 @@
-html,
-body {
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+html body {
+  background-image: url(./pattern2.svg);
+  background-size: cover;
+  font-family: 'Roboto Mono', monospace;
+  color: white;
 }
 
+html,
 body {
-    color: white;
-    background-color: #2b2b2b;
+  margin: 0;
+  padding: 0;
 }
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+  height: 40px;
+  width: 100vw;
+  background-color: #1a1a1a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav li {
+  list-style-type: none;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+nav ul {
+  padding-left: 0;
+}
+/*# sourceMappingURL=style.css.map */
