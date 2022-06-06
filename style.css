@@ -54,8 +54,6 @@ nav {
   height: 50px;
   width: 300px;
   background-color: #1a1a1a;
-  -webkit-box-shadow: 0 0 17px 17px #ddd;
-  box-shadow: 0 0 17px 17px #ddd;
 }
 
 footer {
@@ -63,8 +61,6 @@ footer {
   height: 70px;
   width: 100vw;
   background-color: #1a1a1a;
-  -webkit-box-shadow: 0 0 17px 17px #ddd;
-  box-shadow: 0 0 17px 17px #ddd;
   position: fixed;
   bottom: 0px;
   left: 0px;
@@ -106,12 +102,10 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: absolute;
-  right: 0;
 }
 
-#darkmode {
-  color: white;
+.darkmode {
   background-color: black;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
