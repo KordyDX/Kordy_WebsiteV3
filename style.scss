@@ -14,10 +14,12 @@
         }
         
         .content {
+            text-align: center;
             padding-top: 50px;
             display: flex;
             justify-content: center;
             h1 {
+                margin-left: 10px;
                 letter-spacing: 10px;
                 font-weight: 900;
             }
@@ -81,6 +83,8 @@
         }
         
         .modeSwitch {
+            position: absolute;
+            right: 0;
             width: 70px;
             height: 70px;
             display: flex;
