@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bop {
+    0% {
+        transform: translateY(0%) translateX(-50%);
+    }
+    50% {
+        transform: translateY(-50%) translateX(-50%);
+    }
+    100% {
+        transform: translateY(0%) translateX(-50%);
+    }
+}
+
+@keyframes bopAlt {
+    0% {
+        transform: translateY(-50%);
+    }
+    50% {
+        transform: translateY(-25%);
+    }
+    100% {
+        transform: translateY(-50%);
+    }
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #101010;
+    color: #EFEFEF;
+    font-family: 'Roboto Mono', monospace;
+    text-shadow: 8px 12px 9px rgba(0, 0, 0, 0.25);
+}
+
+#clock {
+    font-weight: 100;
+    font-size: 2em;
+    position: fixed;
+    right: 1vw;
+    top: 0%;
+    text-shadow: 8px 12px 9px rgba(0, 0, 0, 0.25);
+    letter-spacing: 0.225em;
+}
+
+.switch {
+    position: absolute;
+    left: 50vw;
+    transform: translateX(-50%);
+}
+
+#modeSwitch {
+    position: absolute;
+    left: 25%;
+    transform: translateY(-50%);
+}
+
+.ani {
+    animation: bopAlt 0.5s;
+}
+
+.top {
+    width: 100vw;
+    height: 100vh;
+}
+
+.head {
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+}
+
+.head h1 {
+    transform: translateY(-25%);
+    margin-right: -0.805em;
+    font-weight: 400;
+    letter-spacing: 0.805em;
+}
+
+.arrow {
+    transform: translateX(-50%);
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    animation: fadein 5s, bop 2s infinite 3s;
+}
+
+.middle {
+    position: absolute;
+    top: 100vh;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+.bottom {
+    position: absolute;
+    top: 200vh;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.arrow img {
+    filter: invert(1);
+}
+
+.switch img {
+    filter: invert(1);
+}
+
+#modeSwitch img {
+    filter: invert(1);
+}

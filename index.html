@@ -1,46 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kordy</title>
+    <link id="style" rel="stylesheet" href="lightmode.css">
+    <link rel="icon" type="image/x-icon" href="./images/PNG/favicon.png">
 </head>
 
 <body>
-    <nav>
-        <a href="#">Home</a>
-        <a href="about.html">About</a>
-        <a href="work.html">Work</a>
-    </nav>
-    <div class="content">
-        <h1>KORDY</h1>
+    <div id="clock"></div>
+    <script src="script.js"></script>
+    <div class="switch">
+        <img class="bulb" src="./images/PNG/bulbalt.png" width="100px" height="auto">
     </div>
-    <footer>
-        <div class="instagram">
-            <a href="https://www.instagram.com/kristian_kordy/" target="_blank">
-                <img src="./images/SVG/instagram.svg" alt="">
-            </a>
+    <a href="#" id="modeSwitch" onclick="myFunction();">
+        <img src="./images/PNG/chainAlt.png" alt="" height="400px">
+    </a>
+    <audio id="audio" src="./sound/click.wav"></audio>
+    <div class="top">
+        <div class="head">
+            <h1>kordy</h1>
         </div>
-        <div class="github">
-            <a href="https://github.com/KordyDX/" target="_blank">
-                <img src="./images/SVG/github.svg" alt="">
-            </a>
+        <div class="arrow">
+            <img src="./images/SVG/downarrow.svg" alt="" class="arrow" width="65px" height="auto">
         </div>
-        <div class="discord">
-            <a href="https://discordid.netlify.app/?id=803729911705501696" target="_blank">
-                <img src="./images/SVG/discord.svg" alt="">
-            </a>
-        </div>
-        <div class="modeSwitch">
-            <a href="#" class="modeSwitch" onclick="myFunction();">
-                <img src="./images/SVG/moon.svg" alt="">
-            </a>
-        </div>
-    </footer>
+    </div>
+
+    <div class="middle">
+
+    </div>
+    <div class="bottom"></div>
+    <footer></footer>
 </body>
 
 </html>
